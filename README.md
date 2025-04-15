@@ -80,3 +80,77 @@ O sistema deve implementar autenticação de usuários, com níveis de acesso (a
 
 RNF04 – Backup e Disponibilidade:
 O sistema deve realizar backups automáticos diários em nuvem e garantir funcionamento estável durante o horário comercial.
+Cenário de Levantamento de Requisitos – Aplicativo de Saúde e Bem-Estar
+
+Para o desenvolvimento de um aplicativo voltado à saúde e bem-estar, foi realizado um processo estruturado de levantamento de requisitos com o objetivo de entender as necessidades e expectativas dos futuros usuários, bem como os aspectos técnicos e funcionais essenciais para o bom funcionamento do sistema.
+
+Métodos de Coleta de Requisitos Utilizados:
+
+1. Entrevistas com Usuários Potenciais: Foram realizadas entrevistas com pessoas de diferentes perfis (jovens ativos, adultos com foco em reeducação alimentar, idosos com condições crônicas) para identificar suas rotinas de saúde, dificuldades e expectativas quanto ao uso de tecnologias de acompanhamento.
+
+
+2. Questionários Online: Aplicamos formulários digitais com perguntas fechadas e abertas para obter uma visão mais ampla das necessidades dos usuários e preferências de funcionalidades.
+
+
+3. Análise de Sistemas Similares: Foram analisados aplicativos concorrentes no mercado (como MyFitnessPal, Samsung Health, Nike Run Club) para identificar boas práticas, funcionalidades recorrentes e lacunas que poderiam ser exploradas no nosso aplicativo.
+
+
+4. Workshops com Especialistas: Reunimos profissionais de saúde (nutricionistas, educadores físicos e médicos) para discutir as funcionalidades desejáveis do ponto de vista técnico e ético, garantindo confiabilidade e utilidade dos dados fornecidos pelo sistema.
+
+
+
+
+---
+
+Requisitos Funcionais (RF):
+
+1. RF01 – Registro de Atividades: O sistema deve permitir ao usuário registrar atividades físicas como corrida, caminhada, ciclismo e outros exercícios.
+
+
+2. RF02 – Histórico de Atividades: O sistema deve exibir um histórico de atividades físicas realizadas com base na data e tipo de atividade.
+
+
+3. RF03 – Registro Alimentar: O usuário deve conseguir registrar suas refeições diárias, incluindo tipo e quantidade de alimentos consumidos.
+
+
+4. RF04 – Avaliação Nutricional: O sistema deve calcular e exibir a qualidade da dieta com base nas informações inseridas, como calorias, macronutrientes, etc.
+
+
+5. RF05 – Monitoramento de Saúde: O sistema deve permitir que os usuários registrem dados como pressão arterial, níveis de glicose e peso corporal.
+
+
+6. RF06 – Gráficos de Saúde: O sistema deve gerar gráficos e relatórios com a evolução dos dados de saúde registrados.
+
+
+7. RF07 – Definição de Metas: O usuário deve poder definir metas semanais ou mensais para perda de peso, número de passos, ingestão calórica, etc.
+
+
+8. RF08 – Notificações Personalizadas: O sistema deve enviar lembretes e notificações relacionadas às metas estabelecidas e hábitos saudáveis.
+
+
+9. RF09 – Dicas e Feedback Personalizado: Com base nos dados do usuário, o aplicativo deve fornecer sugestões e orientações personalizadas para alcançar as metas de saúde e bem-estar.
+
+
+
+
+---
+
+Requisitos Não Funcionais (RNF):
+
+1. RNF01 – Usabilidade: O sistema deve possuir uma interface intuitiva, acessível a usuários de diferentes faixas etárias.
+
+
+2. RNF02 – Desempenho: O aplicativo deve carregar telas e processar dados em no máximo 2 segundos.
+
+
+3. RNF03 – Segurança: Os dados dos usuários devem ser armazenados de forma segura, com uso de criptografia e autenticação.
+
+
+4. RNF04 – Compatibilidade: O aplicativo deve ser compatível com os sistemas operacionais Android e iOS.
+
+
+
+
+---
+
+Esse levantamento de requisitos proporciona uma base sólida para a construção de um aplicativo que realmente atenda às necessidades dos usuários, promovendo saúde, autonomia e bem-estar por meio da tecnologia.
