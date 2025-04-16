@@ -21,7 +21,7 @@ de produtos, incluindo informações de contato e histórico de pedidos.
 desempenho de vendas e o movimento de estoque para ajudar na tomada 
 de decisões.
 # Métodos Utilizados para a Coleta de Requisitos:
-Para garantir que o Sistema de Gestão de Estoque atenda de forma às necessidades da loja de eletrônicos, foi de extrema importância aplicar diversas combinações de métodos de levantamento de requisitos. Estes permitiram entender o cenário atual, identificar problemas nos processos que já existiam e levantar expectativas dos usuários quanto ao novo sistema. Os métodos usados foram:
+Para garantir que o Sistema de Gestão de Estoque atenda às necessidades da loja de eletrônicos, foi de extrema importância aplicar diversas combinações de métodos de levantamento de requisitos. Estes permitiram entender o cenário atual, identificar problemas nos processos que já existiam e levantar expectativas dos usuários quanto ao novo sistema. Os métodos usados foram:
 
 1. Entrevistas
 As entrevistas foram feitas principalmente com os stakeholders da empresa, incluindo o gerente no meio destes, pessoal do estoque, setor de compras, equipe de vendas e membros da equipe de TI. Esse método permitiu a obtenção de  uma visão das atividades rotineiras, dificuldades enfrentadas e necessidades típica de cada área. As entrevistas foram semiestruturadas, dando espaço tanto para perguntas direcionadas quanto para observações espontâneas, melhorando a coleta de informações.
