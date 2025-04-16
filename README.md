@@ -111,5 +111,5 @@ Foram realizadas análises de documentos para a criação de um app que siga as 
 - Os dados devem ser armazenados de acordo com a LGDP
 - O aplicativo deve ser compatível com sistemas IOS e Android.
 - O aplicativo deve seguir as intruções do Ministério da Saúde.
-- 
+  
 
