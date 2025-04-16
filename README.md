@@ -66,8 +66,9 @@ Após o levantamento inicial dos requisitos, foram criados protótipos de telas 
 
 
 # Cenário: Aplicativo de Saúde e Bem-Estar 
-# Descrição do Escopo: Vocês estão desenvolvendo um aplicativo de saúde e bem-estar para ajudar os 
-usuários a acompanharem sua atividade física, dieta e bem-estar geral.
+# Descrição do Escopo: 
+Vocês estão desenvolvendo um aplicativo de saúde e bem-estar para ajudar os 
+usuários a acompanharem sua atividade física, dieta e bem-estar geral. 
 # Necessidades do Software: 
 - Registro de Atividades: O aplicativo deve permitir que os usuários registrem 
 atividades físicas, como corrida, caminhada, ciclismo, etc. 
