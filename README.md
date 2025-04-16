@@ -1,4 +1,5 @@
 # Levantamento-de-requisitos-3
+# Professor: Valdir
 # Aluno: Murilo Santos Souza, Turma C, ADS noturno
 # RA: 2038823
 # Cenário: Sistema de Gestão de Estoque para uma Loja de Eletrônicos 
