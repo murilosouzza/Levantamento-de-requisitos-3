@@ -39,118 +39,76 @@ Também foi realizada uma análise detalhada de documentos utilizados nos proces
 6. Prototipagem Inicial
 Após o levantamento inicial dos requisitos, foram criados protótipos de telas e fluxos de navegação com o objetivo de validar os requisitos com os usuários. Isso possibilitou uma visualização antecipada do sistema, ajudando a refinar funcionalidades, identificar requisitos adicionais e ajustar pontos de uso antes da implementação. Esse processo reduziu ambiguidades e alinhou as expectativas dos stakeholders.
 
-A utilização combinada desses métodos possibilitou um levantamento de requisitos mais completo e alinhado com as verdadeiras necessidades da loja. Além disso, garantiu que os usuários finais também fossem ouvidos, o que forneceu contribuições significativas para a aceitação e sucesso do sistema após sua implementação.
-# ✅ Requisitos Funcionais (RF)
-RF01 – Cadastro de Produtos:
-O sistema deve permitir o cadastro de novos produtos, incluso nome, descrição, código, categoria, preço de venda e quantidade inicial em estoque.
+# Requisitos Funcionais:
+- Cadastro de Produtos: o sistema deve permitir o cadastro de novos produtos, incluso nome, descrição, código, categoria, preço de venda e quantidade inicial em estoque.
 
-RF02 – Edição e Exclusão de Produtos:
-O sistema deve permitir a total edição dos dados de produtos cadastrados e a exclusão caso necessário, desde que o mesmo não esteja vinculado a vendas realizadas.
+- Edição e Exclusão de Produtos: o sistema deve permitir a total edição dos dados de produtos cadastrados e a exclusão caso necessário, desde que o mesmo não esteja vinculado a vendas realizadas.
 
-RF03 – Monitoramento de Estoque:
-O sistema deve monitorar automaticamente os níveis de estoque e emitir alertas quando um produto atingir o nível crítico definido.
+- Monitoramento de Estoque: o sistema deve monitorar automaticamente os níveis de estoque e emitir alertas quando um produto atingir o nível crítico definido.
 
-RF04 – Registro de Vendas:
-O sistema deve registrar as vendas realizadas nas lojas físicas e online, atualizando os níveis de estoque automaticamente.
+- Registro de Vendas: o sistema deve registrar as vendas realizadas nas lojas físicas e online, atualizando os níveis de estoque automaticamente.
 
-RF05 – Registro de Pedidos a Fornecedores:
-O sistema deve permitir o registro de pedidos de reposição de produtos, com possibilidade de acompanhar o status do mesmo.
+- Registro de Pedidos a Fornecedores: o sistema deve permitir o registro de pedidos de reposição de produtos, com possibilidade de acompanhar o status do mesmo.
 
-RF06 – Cadastro e Gestão de Fornecedores:
-O sistema deve permitir o cadastro e a manutenção de dados de fornecedores, incluso nome, CNPJ, contato e histórico de pedidos.
+- Cadastro e Gestão de Fornecedores: o sistema deve permitir o cadastro e a manutenção de dados de fornecedores, incluso nome, CNPJ, contato e histórico de pedidos.
 
-RF07 – Relatórios de Vendas:
-O sistema deve gerar relatórios periódicos de vendas, por produto, por loja e por período.
+- Relatórios de Vendas, o sistema deve gerar relatórios periódicos de vendas, por produto, por loja e por período.
 
-RF08 – Relatórios de Movimentação de Estoque:
-O sistema deve gerar relatórios detalhados de entradas e saídas de produtos, perdas e transferências entre unidades.
+- Relatórios de Movimentação de Estoque: o sistema deve gerar relatórios detalhados de entradas e saídas de produtos, perdas e transferências entre unidades.
 
-RF09 – Controle de Estoque Multicanal:
-O sistema deve permitir o controle de estoque separado por loja física e por canal online.
-
-# ✅ Requisitos Não Funcionais (RNF)
-RNF01 – Usabilidade:
-A interface do sistema deve ser amigável, com menus intuitivos e linguagem acessível, permitindo o uso por operadores com baixo nível de familiaridade com tecnologia.
-
-RNF02 – Acessibilidade e Responsividade:
-O sistema deve ser acessado via navegador e ter design responsivo, adequando-se a diferentes dispositivos (computadores, tablets e smartphones).
-
-RNF03 – Segurança:
-O sistema deve implementar autenticação de usuários, com níveis de acesso (administrador, operador, gestor) e criptografia de dados sensíveis de acordo com a LGDP.
-
-RNF04 – Backup e Disponibilidade:
-O sistema deve realizar backups automáticos diários em nuvem e garantir funcionamento estável durante o horário comercial.
-Cenário de Levantamento de Requisitos – Aplicativo de Saúde e Bem-Estar
-
-Para o desenvolvimento de um aplicativo voltado à saúde e bem-estar, foi realizado um processo estruturado de levantamento de requisitos com o objetivo de entender as necessidades e expectativas dos futuros usuários, bem como os aspectos técnicos e funcionais essenciais para o bom funcionamento do sistema.
-
-Métodos de Coleta de Requisitos Utilizados:
-
-1. Entrevistas com Usuários Potenciais: Foram realizadas entrevistas com pessoas de diferentes perfis (jovens ativos, adultos com foco em reeducação alimentar, idosos com condições crônicas) para identificar suas rotinas de saúde, dificuldades e expectativas quanto ao uso de tecnologias de acompanhamento.
-
-
-2. Questionários Online: Aplicamos formulários digitais com perguntas fechadas e abertas para obter uma visão mais ampla das necessidades dos usuários e preferências de funcionalidades.
-
-
-3. Análise de Sistemas Similares: Foram analisados aplicativos concorrentes no mercado (como MyFitnessPal, Samsung Health, Nike Run Club) para identificar boas práticas, funcionalidades recorrentes e lacunas que poderiam ser exploradas no nosso aplicativo.
-
-
-4. Workshops com Especialistas: Reunimos profissionais de saúde (nutricionistas, educadores físicos e médicos) para discutir as funcionalidades desejáveis do ponto de vista técnico e ético, garantindo confiabilidade e utilidade dos dados fornecidos pelo sistema.
+- Controle de Estoque Multicanal: o sistema deve permitir o controle de estoque separado por loja física e por canal online.
+# Requisitos não funcionais
+- A inteface deve ser amigável, com menus intuitivos e linguagem de fácil entendimento, permitindo o uso por todos.
+- A autenticação do usuário deve ser realizada em no máximo 3 segundos
+- O sistema deve estar disponível para uso 24/7
+- O sistema deve poder ser acessado via navegador e ter design responsivo, adaptando-se a diferentes dispositivos.
 
 
 
+# Cenário: Aplicativo de Saúde e Bem-Estar 
+# Descrição do Escopo: Vocês estão desenvolvendo um aplicativo de saúde e bem-estar para ajudar os 
+usuários a acompanharem sua atividade física, dieta e bem-estar geral.
+# Necessidades do Software: 
+- Registro de Atividades: O aplicativo deve permitir que os usuários registrem 
+atividades físicas, como corrida, caminhada, ciclismo, etc. 
+- Acompanhamento de Dieta: Os usuários devem poder registrar sua 
+ingestão diária de alimentos e monitorar a qualidade de sua dieta. 
+- Monitoramento de Saúde: O aplicativo deve permitir que os usuários 
+registrem dados de saúde, como pressão arterial, níveis de glicose e peso 
+corporal. 
+- Definição de Metas: Os usuários devem poder definir metas pessoais para 
+atividade física, dieta e outros aspectos de saúde e bem-estar. 
+- Feedback Personalizado: O aplicativo deve fornecer feedback 
+personalizado e dicas para ajudar os usuários a alcançarem suas metas de 
+saúde e bem-estar.
+# Métodos Utilizados para a Coleta de Requisitos:
+Para a criação de um aplicativo voltado à saúde e bem-estar, foi realizado um levantamento de requisitos com o objetivo de entender as necessidades e expectativas de futuros usuários, além de expectativas quanto à usabiidade e estabilidade do sistema.
+1. Entrevistas
+Foram feitas com usuários em potencial, de diferentes perfis, para mapear suas rotinas de saúde, dificuldades e expectativas quanto a esse tipo de tecnologia de acompanhamento.
+2. Questionário Online
+Foram aplicados formulários digitais com berguntas bem fechadas e outrass mais abertas, com o objetivo de obter um entendimento maior das necessidas dos usuários e preferências de funcionalidade.
+3. Análise de sistemas similares
+Foi feito ánalise de sistemas similares concorrentes no mercado para identificar boas práticas, funcionalidades comuns.
+4. Workshops com especialistas
+Foi feito uma reunião com profissioanis da saúde com o objetivo de discutir funcionalidades desejáveis do ponto de vista técnico. Garantindo confiabilidade e utilidade dos dados fornecidos pelo sistema.
+5. Análise de documentos
+Foram realizadas análises de documentos para a criação de um app que siga as regulamentações do Ministério da Saúde.
 
----
+# Requisitos Funcionais
+- Registro de Atividades: o sistema deve permitir que o usuário registre atividades físicas de todos os tipos.
+- Histórico de atividades: o sistema deve exibir um histórico de atividades físicas realizadas baseando-se na data e tipo de atividade.
+- Registro alimentar: o usuário deve conseguir registrar suas refeições ao longo do dia, incluso tipo e quantidades de alimentos consumidos
+- Avaliação Nutricional: O sistema deve calcular e exibir a qualidade da dieta com base em informações inseridas.
+- Monitoramento de saúde: O sistema deve permitir que os usuários registrem dados voltados a saúde, como por exemplo, pressão arterial, niveis de glicose e peso corporal.
+- Gráficos de Saúde: O sistema deve gerar gráficos e relatórios com a evolução dos dados registrados
+- Definição de metas: o usuário deve poder definir metas semnais, mensais ou até anuais para todo tipo de ação desejada.
+- Notificações: O sistema deve enviar lembretes e notificações relacionadas às metas estabelecidas e hábitos saudáveis
+- Dicas e feedback: Baseando-se em dados do usuário, o aplicativo deve fornecer sugestões para alcançar as metas definidas.
+# Requisitos não funcionais
+- O sistema deve possuir uma interface intuitiva, acessível a usuários de diferentes faixas etárias
+- O aplicativo deve carregar telas e processar dados em 2 segundos.
+- Os dados devem ser armazenados de acordo com a LGDP
+- O aplicativo deve ser compatível com sistemas IOS e Android.
+- O aplicativo deve seguir as intruções do Ministério da Saúde.
+- 
 
-Requisitos Funcionais (RF):
-
-1. RF01 – Registro de Atividades: O sistema deve permitir ao usuário registrar atividades físicas como corrida, caminhada, ciclismo e outros exercícios.
-
-
-2. RF02 – Histórico de Atividades: O sistema deve exibir um histórico de atividades físicas realizadas com base na data e tipo de atividade.
-
-
-3. RF03 – Registro Alimentar: O usuário deve conseguir registrar suas refeições diárias, incluindo tipo e quantidade de alimentos consumidos.
-
-
-4. RF04 – Avaliação Nutricional: O sistema deve calcular e exibir a qualidade da dieta com base nas informações inseridas, como calorias, macronutrientes, etc.
-
-
-5. RF05 – Monitoramento de Saúde: O sistema deve permitir que os usuários registrem dados como pressão arterial, níveis de glicose e peso corporal.
-
-
-6. RF06 – Gráficos de Saúde: O sistema deve gerar gráficos e relatórios com a evolução dos dados de saúde registrados.
-
-
-7. RF07 – Definição de Metas: O usuário deve poder definir metas semanais ou mensais para perda de peso, número de passos, ingestão calórica, etc.
-
-
-8. RF08 – Notificações Personalizadas: O sistema deve enviar lembretes e notificações relacionadas às metas estabelecidas e hábitos saudáveis.
-
-
-9. RF09 – Dicas e Feedback Personalizado: Com base nos dados do usuário, o aplicativo deve fornecer sugestões e orientações personalizadas para alcançar as metas de saúde e bem-estar.
-
-
-
-
----
-
-Requisitos Não Funcionais (RNF):
-
-1. RNF01 – Usabilidade: O sistema deve possuir uma interface intuitiva, acessível a usuários de diferentes faixas etárias.
-
-
-2. RNF02 – Desempenho: O aplicativo deve carregar telas e processar dados em no máximo 2 segundos.
-
-
-3. RNF03 – Segurança: Os dados dos usuários devem ser armazenados de forma segura, com uso de criptografia e autenticação.
-
-
-4. RNF04 – Compatibilidade: O aplicativo deve ser compatível com os sistemas operacionais Android e iOS.
-
-
-
-
----
-
-Esse levantamento de requisitos proporciona uma base sólida para a construção de um aplicativo que realmente atenda às necessidades dos usuários, promovendo saúde, autonomia e bem-estar por meio da tecnologia.
